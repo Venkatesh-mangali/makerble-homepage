@@ -1,0 +1,35 @@
+/* src/components/CreateStoryForm.css */
+.create-story-form {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-story-form h2 {
+    margin-bottom: 10px;
+  }
+  
+  .create-story-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .create-story-form .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .create-story-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

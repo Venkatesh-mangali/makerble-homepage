@@ -1,0 +1,14 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
